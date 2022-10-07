@@ -1,6 +1,8 @@
 //name of the Publisher
 publisher_name = "<Name of publisher to be used in both AWS EC2 and Netskope>"
 
+/* For security purposes, AWS key names should be used as a Terraform environment variable, and not as a variable stored in the tfvars file. 
+        The below is an example of how the AWS key COULD be used with the Netskope Terraform provider*/
 //AWS Key Name
 aws_key_name = "<AWS Keypair to be used for the EC2 instance>"
 
